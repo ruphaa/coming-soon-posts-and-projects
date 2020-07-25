@@ -191,3 +191,40 @@ footer {
   position: sticky;
   bottom: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    overflow: scroll;
+  }
+  .coming-soon {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  header {
+    left: 20px;
+    top: 20px;
+  }
+  .right {
+    width: 100%;
+    margin-top: 65px;
+  }
+  .right .hero-section {
+    width: 100%;
+    height: 155px;
+  }
+  .left {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .coming-soon-title {
+    font-size: 2rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  .subscribe {
+    width: 80%;
+  }
+}
